@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "value": "brendan",
+    "desc": "fake@email.com"
+  },
+  {
+    "id": 2,
+    "value": "brad",
+    "desc": "email@notreal.com"
+  } 
+]

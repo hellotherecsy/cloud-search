@@ -1,0 +1,65 @@
+{
+    "data": [
+        {
+            "clusterId": "A",
+            "userId": "1",
+            "clusterTypeId": "2",
+            "clusterName": "MMM",
+            "endpointEs": "15.15.15.15:9200",
+            "endpointKibana": "15.15.15.15:5601",
+            "monitorLinkEs": null,
+            "monitorLinkKibana": null,
+            "createDt": "2018-03-18T18:29:00Z",
+            "nodeSize": null
+        },
+        {
+            "clusterId": "AAAAA",
+            "userId": "2",
+            "clusterTypeId": "1",
+            "clusterName": "My-first-cluster",
+            "endpointEs": "169.56.72.226:10200",
+            "endpointKibana": "localhost:5601",
+            "monitorLinkEs": "",
+            "monitorLinkKibana": "",
+            "createDt": "2018-03-18T21:16:13Z",
+            "nodeSize": "4"
+        },
+        {
+            "clusterId": "AAAAAA",
+            "userId": "2",
+            "clusterTypeId": "1",
+            "clusterName": "My-first-cluster",
+            "endpointEs": "169.56.72.226:10200",
+            "endpointKibana": "localhost:5601",
+            "monitorLinkEs": "",
+            "monitorLinkKibana": "",
+            "createDt": "2018-03-18T21:51:53Z",
+            "nodeSize": "4"
+        },
+        {
+            "clusterId": "B",
+            "userId": "2",
+            "clusterTypeId": "3",
+            "clusterName": "big",
+            "endpointEs": "10.10.10.10:9200",
+            "endpointKibana": "10.10.10.10:5601",
+            "monitorLinkEs": null,
+            "monitorLinkKibana": null,
+            "createDt": "2018-03-18T18:29:00Z",
+            "nodeSize": null
+        },
+        {
+            "clusterId": "C",
+            "userId": "1",
+            "clusterTypeId": "1",
+            "clusterName": "test",
+            "endpointEs": "localhost:9200",
+            "endpointKibana": "localhost:5601",
+            "monitorLinkEs": null,
+            "monitorLinkKibana": null,
+            "createDt": "2018-03-18T18:29:00Z",
+            "nodeSize": null
+        }
+    ],
+    "statusCode": 200
+}

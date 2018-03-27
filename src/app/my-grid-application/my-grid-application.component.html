@@ -1,0 +1,25 @@
+<p>
+  my-grid-application works!
+</p>
+
+<div class="button-bar">
+  <button (click)="createCluster()">클러스터 생성</button>
+  <button (click)="listCluster()">클러스터 목록 조회</button>
+  <button (click)="restTest()"> REST GET TEST </button>
+</div>
+
+{{ term }}
+{{ list }}
+
+<div style="width: 500px;">
+  <ag-grid-angular #agGrid style="width: 1300px; height: 300px;" class="ag-theme-balham"
+               [gridOptions]="gridOptions"     >
+  </ag-grid-angular>
+</div>
+
+ <!-- Polyfills -->
+  <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+  <script src="https://unpkg.com/zone.js@0.8.17?main=browser"></script>
+  <script src="https://unpkg.com/systemjs@0.19.39/dist/system.src.js"></script>
+
+
